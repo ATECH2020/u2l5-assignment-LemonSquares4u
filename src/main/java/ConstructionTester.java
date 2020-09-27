@@ -24,7 +24,10 @@ public class ConstructionTester
         //myConstruction.lumberCost(numBoards); 
         //myConstruction.windowCost(numWindows);
         total = myConstruction.lumberCost(numBoards) + myConstruction.windowCost(numWindows); 
-        myConstruction.grandTotal(total);
+        //myConstruction.grandTotal(total);
+        System.out.println("Total: " + total);
+        System.out.println("Grand Total: " + myConstruction.grandTotal(total));
+
     }
-    }
+    
 }
